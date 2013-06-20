@@ -1,4 +1,4 @@
-  a = gets.chomp
+   a = gets.chomp
     num = a.to_i
  # imprime las X     
       def diez num
@@ -85,7 +85,9 @@ end
         end
 # imprime numeros menores a 500
         def al500 num
-            if num == 100
+            if num < 100
+                al100 num            
+            elsif num == 100
                 cien num
             elsif num > 100 && num < 500
                  cien num
@@ -135,4 +137,4 @@ end
         end
 
 romanos num
-        
+     
