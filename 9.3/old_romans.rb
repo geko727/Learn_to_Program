@@ -1,3 +1,6 @@
+#9.3 A Few Things to Try
+#Old Romans
+
    a = gets.chomp
     num = a.to_i
  # imprime las X     
